@@ -1,97 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Review Project</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <!--
+<body>
 
-    Hello Camper!
+  <div class="wrapper">
+    <header>
+      <h1 id="title">Microverse Survey</h1>
+      <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, veritatis.</p>
+    </header>
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <div>
-        <h1 id="title">Microverse Survey</h1>
-        <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, veritatis.</p>
-    </div>
-    <div>
+    <div class="form-container">
       <form action="" id="survey-form">
         <ul>
           <label id="name-label">Name</label><br>
-          <input  id="name" type="text" placeholder="Enter your name" required>
+          <input id="name" type="text" placeholder="Enter your name" required>
         </ul>
         <ul>
           <label id="email-label">Email</label><br>
-          <input id="email" type="email" placeholder="Enter your email" value = "Sign Up" required>
+          <input id="email" type="email" placeholder="Enter your email" value="Sign Up" required>
         </ul>
         <ul>
           <label id="number-label">Age (Optional)</label><br>
-          <input id="number" type="number" name="num" min = "1" max = "50" placeholder="Age">
+          <input id="number" type="number" name="num" min="1" max="50" placeholder="Age">
         </ul>
-
         <ul>
-          <label id="dropdown-label" >Lorem ipsum dolor sit.</label><br>
+          <label id="dropdown-label">Lorem ipsum dolor sit.</label><br>
           <select name="select-op" id="dropdown">
-        <option value="javascript">JavaScript</option>
-        <option value="php">PHP</option>
-        <option value="java">Java</option>
-        
+            <option value="javascript">JavaScript</option>
+            <option value="php">PHP</option>
+            <option value="java">Java</option>
           </select>
-        
         </ul>
-
         <ul>
-          <label id="dropdown-label" >Lorem ipsum dolor sit.</label><br>
-          <input name="group" type="radio" value = "definitely">
+          <label id="dropdown-label">Lorem ipsum dolor sit.</label><br>
+          <input name="group" type="radio" value="definitely">
           <label id="radio-grp">Definitely</label><br>
-          <input name="group" type="radio" value = "Maybe">
+          <input name="group" type="radio" value="Maybe">
           <label id="radio-grp">Maybe</label><br>
-          <input name="group" type="radio" value = "Not sure">
+          <input name="group" type="radio" value="Not sure">
           <label id="radio-grp">Not sure</label>
         </ul>
-
         <ul>
-          <label id="dropdown-label" >Lorem ipsum dolor sit.</label><br>
-          <input value= "challenges" name = "group" type="checkbox">
+          <label id="dropdown-label">Lorem ipsum dolor sit.</label><br>
+          <input value="challenges" name="group" type="checkbox">
           <label id="radio-grp">Definitely</label><br>
-          <input value= "videos" name="group" type="checkbox">
+          <input value="videos" name="group" type="checkbox">
           <label id="radio-grp">Maybe</label><br>
-          <input value= "wiki" name="group" type="checkbox">
+          <input value="wiki" name="group" type="checkbox">
           <label id="radio-grp">Not sure</label>
         </ul>
-
         <ul>
           <label for="">Lorem ipsum dolor sit amet.</label><br>
           <textarea name="textarea"></textarea>
         </ul>
-
         <ul>
-              <input id="submit" type="submit" value="submit">
+          <input id="submit" type="submit" value="submit">
         </ul>
-    
-
       </form>
-
     </div>
+  </div>
 
-  
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="js/index.js"></script>
+</body>
 
-  
-    
-
-
-
-    <script  src="js/index.js"></script>
-  </body>
 </html>
